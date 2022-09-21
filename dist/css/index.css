@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2rem 7%;
+  display: grid;
+  place-content: center;
+  background: rgb(255, 203, 203);
+  overflow: hidden;
+}
+body .heading {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .heading h1 {
+  font-size: 3rem;
+}
+body .heading .underline {
+  width: 90px;
+  margin: 1rem;
+  height: 5px;
+  background: purple;
+}
+body .container {
+  flex: 1 1 35rem;
+  max-width: 45rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 2rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  box-shadow: 2px 4px 4px grey;
+}
+body .container h4 {
+  text-transform: uppercase;
+  color: navy;
+}
+body .container p.job {
+  color: red;
+}
+body .container .image {
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+body .container .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container button {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+body .container .angle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+body .container .angle button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+}
+body .container .angle button i {
+  font-size: 1.3rem;
+  color: rgb(222, 91, 91);
+}/*# sourceMappingURL=index.css.map */
