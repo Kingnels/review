@@ -79,7 +79,7 @@ showPerson = ()=>{
 nextBtn.onclick= ()=>{
     currentItem++
     if(currentItem > reviews.length - 1){
-        currentItem = 0
+        currentItem = 0;
     }
     showPerson(currentItem);
 }
